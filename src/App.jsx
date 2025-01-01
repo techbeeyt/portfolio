@@ -17,10 +17,11 @@ function App() {
         <div className="col-span-6 pl-10 py-10">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/portfolio" element={<Home />} />
             <Route path="/publications" element={<Publications />} />
           </Routes>
         </div>
-    </div>
+      </div>
     </div>
   );
 }

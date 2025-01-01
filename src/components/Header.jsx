@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import { name } from '../database/sidebar.json';
+import { name } from "../database/sidebar.json";
 
 const Header = () => {
   return (
     <div className="flex justify-start items-center gap-4 border-b border-gray-200 h-20">
       <div className="cormorant-garamond-bold text-2xl px-10">
-        <Link to="/">{name}</Link>
+        <Link to="/portfolio">{name}</Link>
       </div>
       <div className="ml-6">
         <ul className="flex justify-start items-center gap-6">

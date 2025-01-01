@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <div className="flex flex-col justify-start items-center gap-8 pt-8">
       <div className="h-40 w-40 rounded-full p-2 border border-gray-200">
-        <img src="/avatar.png" className="w-full h-full" />
+        <img src="/public/avatar.png" className="w-full h-full" />
       </div>
 
       <div className="w-full pl-20">
